@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.AllCards{
+  display: flex;
+  margin: 25px 15px 0px;
+  padding: 10px;
+}
+
+.Live{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  margin: 0px 15px 10px;
+}
+.Live div {
+  padding: 5px;
+  width: 100%;
+  height: 50%;
+}
+
+.logo{
+  float: left;
+}

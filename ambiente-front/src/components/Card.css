@@ -1,0 +1,107 @@
+.card {
+  width:220px;
+  display: block;
+  margin: 10px auto 10px;
+  transition: .25s; 
+}
+
+.indicative {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  background-color:#6A5ACD; 
+}
+
+.button-a{
+  background-color: #ffffff; /* Green #4CAF50 */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button-a:hover {
+  opacity: 1
+}
+
+.cardHeader {
+  background-color: #fffa60;
+}
+
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 0px;
+  padding: 0;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  background: #000;
+  border-color: #aaa;
+  color: black;
+  border-radius: 0px 0px 0 0;
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+}
+
+.react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+  opacity: 1;
+  animation: fade-and-slide-in 250ms ease-out;
+
+}
+
+@keyframes fade-and-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(-2%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
